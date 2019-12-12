@@ -16,3 +16,9 @@ variable "awsiam_path" {
    default = "system"
 }
 
+variable "awsiamaccesskey" {
+   default = "aws2_iam_user.lb.name"  
+}
+variable "acesspolicy" {
+    default = "aws_iam_user.lb.name"
+}
